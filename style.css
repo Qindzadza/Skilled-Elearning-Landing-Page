@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    
+}
+header{
+    display: flex; 
+    margin-top: 10px;
+    
+   
+
+    
+}
+.mainbt{
+    width: 167px;
+    height: 56px;
+    margin-left: 70%;
+    color:white;
+    background-color: #13183F;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    
+}
+.mainbt:hover{
+    cursor: pointer;
+    background-color: #666CA3;
+}
+
+.logo{
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 19%;
+    
+}
+
+.container{
+    font-family: Plus Jakarta Sans, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: -70px;
+    
+}
+
+
+.box{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+
+}
+.box1{
+  width:600px; 
+  margin-left: 260px;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.h{
+    width:476px;
+    font-size: 56px;
+    color:#13183F;
+    font-weight: 800;
+    margin-bottom: 40px;
+    
+
+}
+
+.para-text{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 28px;
+    color:#83869A;
+}
+.sec-button{
+    margin-top: 20px;
+    width: 165px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    height: 63px;
+    border-radius:31.5px;
+    font-size: 18px;
+    color:white;
+    
+}
+.picture2{
+    visibility: hidden;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -800px;
+}
+.sec-button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    cursor: pointer;
+}
+
+
+.box2{
+    margin-top: -200px;
+}
+
+.container2{
+    width:1440px;
+    height: 888px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left:400px;
+   
+}
+.lbox1{
+    width:300px;
+    height: 322px;
+    border-radius: 15px;
+    background:linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    display: flex;
+    margin-left:65px;
+  
+
+}
+.lbox1>p{
+    font-size: 32px;
+    font-weight:800;
+    line-height: 40px;
+    color:white;
+    margin-left: 32px;
+    margin-top: 64px;
+    word-wrap: break-word;
+   
+}
+.lbox2{
+    width:300px;
+    height: 322px;
+    border-radius: 15px;
+    display: flex;
+    margin-left:65px;
+    background-color: white;
+    flex-direction: column;
+}
+.lbox2>img{
+    width:56px;
+    height: 56px;
+
+    margin-top:-20px;
+    margin-left: 30px;
+    
+}
+
+.lbox2>h1{
+    font-size: 24px;
+    font-weight: 800;
+    color:#13183F;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.lbox2>p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color:#83869A
+}
+.lbox2>button{
+    color:#F74780;
+    background-color: white;
+    margin-top: 20px;
+    height: 28px;
+    width:104px;
+    margin-left: 25px;
+    
+}
+.lbox2>button:hover{
+    cursor: pointer;
+    color: #FFA7C3;
+}
+
+footer{
+ 
+    margin-top: 10px; 
+    height: 120px;
+    background-color: #13183F;
+    
+}
+.mainbt2{
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    width: 167px;
+    height: 56px;
+    margin-left: 45%;
+    margin-top: 3%;
+    color:white;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.mainbt2:hover{
+     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);;
+    cursor: pointer;
+}
+
+.light{
+    margin-left: 20%;
+    margin-top: 3%;
+    width:10%;
+    
+}
+@media only screen and (max-width: 1280px) {
+    header{
+        margin-top: 2%;
+    }
+    .logo{
+        margin-left: 14%;
+    }
+    .light{
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .logo{
+        margin-left: 6%;
+    }
+    .container{
+        width:1024
+    }
+    .picture{
+        margin-left: -90px;
+    }
+    .container2{
+        width:1024px;
+        margin-left: -450px;
+    }
+    .lbox1{
+        width: 270px;
+        margin-bottom: 10px;
+
+    }
+    .lbox2{
+        width: 270px;
+        margin-bottom: 10px;
+    }
+    
+    .light{
+
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+   .box{
+    display: flex;
+    margin-top: -80px;
+   }
+   .box1{
+    margin-left: 390px;
+   }
+ 
+   .h{
+    
+    font-size: 43px;
+    
+   }
+   .para-text{
+    margin-left: 10px;
+    word-wrap: break-word;
+    font-size: 16px;
+    width:300px;
+   }
+   
+   .picture{
+    margin-left: -170px;
+    width: 120%;
+   }
+   .container2{
+    display: flex;
+    padding-left: 650px;
+    margin-bottom: 190px;
+
+    
+   }
+   .lbox1{
+    margin-left: 90px;
+   }
+   .lbox2{
+    margin-left: 90px;
+    margin-bottom: 50px;
+   }
+   footer{
+    margin-top: -1px;
+   }
+   .light{
+    margin-left: 10%;
+   }
+}
+@media only screen and (max-width:385px){
+    header{
+        margin-top: 30px;
+       
+    }
+    .mainbt{
+        margin-left: 180px;
+    }
+  
+    .box{
+        
+        display: inline;
+        justify-content: center;
+        width:384px;
+        
+    }
+
+    .box1{
+       margin-left: 20px;
+       margin-top: 200px;
+    }
+    .picture{
+        visibility: hidden;
+    }
+   
+    .picture2{
+        margin-top: 250px;
+        margin-left: -300px;
+        visibility: visible;
+       
+        
+    }
+    .container2{
+        margin-top: 50px;
+        display: inline;
+        height: auto;
+       
+    }
+    .lbox1{
+        height:200px;
+        
+    }
+    .lbox1>p{
+        margin-top:20px;
+    }
+    
+    .lbox1,.lbox2{
+        margin-left: 300px;
+        margin-bottom: 40px;
+    }
+    .light{
+        width:30%;
+        margin-top: 15%;
+    }
+    .mainbt2{
+        position: absolute;
+        margin-top: 13%;
+        margin-left: 5%;
+    }
+}
